@@ -5,6 +5,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="description" content="Turbo Car Tuning — ร้านอะไหล่และของแต่งกระบะซิ่ง ของแท้ มีใบรับประกัน ส่งทั่วประเทศ">
 <title>Turbo Car Tuning</title>
+
+<!-- สคริปต์ Redirect เฉพาะมือถือ (ทำงานทันทีที่โหลดหน้าเว็บ) -->
+<script>
+  (function() {
+    var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) 
+      || (window.matchMedia && window.matchMedia("(pointer: coarse)").matches && window.innerWidth <= 820);
+    if (isMobile) {
+      window.location.href = "https://www.facebook.com/tamiyaautoshop";
+    }
+  })();
+</script>
+
 <style>
   :root { padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); color-scheme: light; }
   html, body { margin: 0; }
